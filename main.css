@@ -47,43 +47,11 @@ li{
 
 }
 
-@keyframes rolling{
-    0%{
-        border-radius: 50%;
-        border-top: black solid;
-        border-left: transparent;
-        border-bottom: transparent;
-        border-right: transparent;
-    }
-    25%{
-        border-radius: 50%;
-        border-top: transparent;
-        border-left: black solid;
-        border-bottom: transparent;
-        border-right: transparent;
-    }
-    50%{
-        border-radius: 50%;
-        border-top: transparent;
-        border-left: transparent;
-        border-bottom: black solid;
-        border-right: transparent;
-    }
-    75%{
-        border-radius: 50%;
-        border-top: transparent;
-        border-left: transparent;
-        border-bottom: transparent;
-        border-right: black solid;
-    }
-}
-
-
 /* MAIN */
 main{
     grid-area: main;
     color: #009ACA;
-    text-shadow: black 0.5px 0.5px;
+    text-shadow: rgb(40, 40, 40) 0.5px 0.5px;
 
 }
 main h4{
@@ -116,7 +84,7 @@ aside{
     
 }
 h4{
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px rgb(40, 40, 40);
 }
 
 
