@@ -1,0 +1,133 @@
+/* header */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #CDB8A4;
+}
+body{
+    background-color:#CDB8A4;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    ". main aside"
+    "footer footer footer";
+    grid-template-rows: 1fr 1fr 1fr;
+}
+header{
+    background-color: #009ACA;
+    box-shadow: black 0px 2px 6px;
+    grid-area: header;
+
+}
+.nav-link{
+    margin: 0%;
+    color: black;
+}
+#logo{
+    
+}
+#navMenu{
+    margin-left: -20px;
+    
+}
+.nav-link:hover{
+    animation: rolling
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+}
+#logo{
+    height: 90px;
+}
+li{
+   border-radius: 50%;
+    margin: 1%;
+
+}
+
+@keyframes rolling{
+    0%{
+        border-radius: 50%;
+        border-top: black solid;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+    }
+    25%{
+        border-radius: 50%;
+        border-top: transparent;
+        border-left: black solid;
+        border-bottom: transparent;
+        border-right: transparent;
+    }
+    50%{
+        border-radius: 50%;
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: black solid;
+        border-right: transparent;
+    }
+    75%{
+        border-radius: 50%;
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: black solid;
+    }
+}
+
+
+/* MAIN */
+main{
+    grid-area: main;
+    color: #009ACA;
+    text-shadow: black 0.5px 0.5px;
+
+}
+main h4{
+    text-align: center;
+}
+main h5{
+    text-align: center;
+}
+#sala img{
+    align-items: center;
+    border: cadetblue 1px solid;
+    border-radius: 10px;
+}
+#sala img:hover{
+    cursor: zoom-in;
+}
+#sala img:active{
+    width: 560px;
+    height: auto;
+    position:absolute;
+    top: 50vw;
+    left: 30%;
+    z-index: 1;
+    border: solid 2px darkcyan;
+}
+/* ASIDE */
+aside{
+    //background-color: blue;
+    grid-area: aside;
+    
+}
+h4{
+    text-shadow: 1px 1px black;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: #009ACA;
+    grid-area: footer;
+    box-shadow: 1px 1px 1px #00000 solid;
+}
+{
+    
+}
