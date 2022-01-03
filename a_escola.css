@@ -22,9 +22,24 @@ header{
     grid-area: header;
 
 }
+#boxNav{
+    flex:content;
+    padding-top: 3%;
+    padding-bottom: 2%;    
+}
 .nav-link{
     margin: 0%;
-    color: black;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px transparent;
+    
+}
+.nav-link:hover{
+    margin: 0%;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px white solid;
+    margin-bottom: -2px;
+    transition-duration: .8s;
+
 }
 #logo{
     
