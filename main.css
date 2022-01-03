@@ -1,4 +1,4 @@
-/* header */
+/* GERAL */
 *{
     padding: 0%;
     margin: 0%;
@@ -13,6 +13,7 @@ body{
     "footer footer footer";
     grid-template-rows: 1fr 1fr 1fr;
 }
+/* HEADER */
 header{
     background-color: #009ACA;
     box-shadow: black 0px 2px 6px;
