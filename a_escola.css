@@ -67,6 +67,7 @@ main{
     text-shadow: rgb(41, 40, 40) 0.5px 0.5px 1px;
 }
 video{
+    width:calc(100% - 80px);
     margin-left: 30px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: black 1px 1px 3px;
@@ -92,4 +93,8 @@ footer{
     background-color: #009ACA;
     grid-area: footer;
     box-shadow: 1px 1px 1px #00000 solid;
+}
+footer h6{
+    color: white;
+    text-align: center;
 }

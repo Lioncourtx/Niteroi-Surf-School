@@ -105,8 +105,10 @@ section:nth-of-type(2){
 footer{
     background-color: #009ACA;
     grid-area: footer;
-    box-shadow: 1px 1px 1px #00000 solid;
+    box-shadow: 1px 1px 1px #000000 solid;
 }
-{
+footer h6{
+    color: white;
+    text-align: center;
     
 }
