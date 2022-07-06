@@ -12,7 +12,7 @@ body{
     "footer footer footer";
 
     grid-template-rows: 100px 1fr 50px;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 5fr;
 }
             /*   HEADER   */
 header{
@@ -26,6 +26,7 @@ header{
 #logo{
     width: 90px;
     margin: 5px 20%;
+    box-shadow:;
 }
 ul{
     margin-left: 20%;
@@ -41,40 +42,38 @@ ul li a{
     text-shadow: 1px 1px 3px black;
 }
 ul li a:hover{
-    color: blue;
+    color: darkgrey;
     text-decoration: none;
-    animation: borda;
-    animation-duration: 700ms;
-    anima
-
 }
-@keyframes borda{
-    0%{
-        border-bottom: rgba(0, 0, 255,.1);
+label img{
+    display: none;
+}
+
+@media (max-width: 520px){
+    header .container{
+        display: flex;
+        justify-content: space-between;
     }
-    25%{
-        border-bottom: rgba(0, 0, 255,.3);
+
+    ul{
+        display: none;
     }
-    50%{
-        border-bottom: rgba(0, 0, 255,.5);
-    }
-    75%{
-        border-bottom: rgba(0, 0, 255,.7);
-    }
-    100{
-        border-bottom: rgba(0, 0, 255,1);
+    label img{
+        width: 70px;
+        cursor: pointer;
+        display: block;
     }
 }
 
             /*   main   */
 main{
     grid-area: main;
-    background-color: yellow;
+    background-color: white;
 }
             /*   aside   */
 aside{
     grid-area: aside;
-    background-color: yellowgreen;
+    background-color: gray;
 }
             /*  footer  */
 footer{
