@@ -2,18 +2,64 @@ body{
     padding: 0;
     margin: 0;
 }
+.correctSpace{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
 
  /*     HEADER     */
 
 header{
     background-color: #0092C0
 }
-header img{
+header #logo{
     width: 100px;
     filter: drop-shadow(1px 1px 3px black);
+}
+header .logoMenu{
+    display: none;
 }
 header{
     text-shadow: 1px 1px black;
     box-shadow: 1px 1px 3px black;
 }
+@media (max-width: 1151px) {/* Tablet resolution*/
+    .navtablet{
+        margin-left: -100px;
+    }
+    header .logoMenu{
+        display: none;
+    }
+}
+@media (max-width: 911px) {
+    header nav{
+        display: none;
+    }    
+    header .logoMenu{
+        display: inline;
+        width: 86px;
+        height: 86px;
+    }
+}
+@media (max-width: 575px){
+    .headerSpace{
+        width: 30%;
+    }
+}
+@media (max-width: 373px){
+    .headerSpace{
+        width: 1px;
+    };
+}
 
+/*     MAIN     */
+main{
+    height: 80vw;
+}
+
+/*     ASIDE    */
+
+/*     FOOTER    */
+footer{
+    background-color: #0092C0;
+}
